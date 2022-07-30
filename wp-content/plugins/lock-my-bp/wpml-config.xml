@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="bplock_general_settings">
+            <key name="locked_content" />
+            <key name="custom_form_content" />            
+        </key>		
+    </admin-texts>
+</wpml-config>
