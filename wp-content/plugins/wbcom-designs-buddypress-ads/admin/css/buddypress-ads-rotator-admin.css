@@ -1,0 +1,259 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.wb_ads_rotator-panel .wb_ads_rotator-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.wb_ads_rotator-panel .wb_ads_rotator-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.wb_ads_rotator-panel .wb_ads_rotator-wrapper:last-child {
+  padding-bottom: 0;
+  border: 0;
+}
+
+.wb_ads_rotator-panel .wb_ads_rotator-wrapper .wb_ads_rotator-label {
+  color: #5f5f5f;
+  font-weight: 700;
+  line-height: 19px;
+  width: 20%;
+}
+
+.wb_ads_rotator-panel .wb_ads_rotator-wrapper .wb_ads_rotator-input {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#wb-ads-preview-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.wb-ads-rotator-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.wb-ads-rotator-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.wb-ads-rotator-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.wb-ads-rotator-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .wb-ads-rotator-slider {
+  background-color: #2196f3;
+}
+
+input:focus + .wb-ads-rotator-slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .wb-ads-rotator-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.wb-ads-rotator-slider.wb-ads-rotator-round {
+  border-radius: 34px;
+}
+
+.wb-ads-rotator-slider.wb-ads-rotator-round:before {
+  border-radius: 50%;
+}
+
+.wb-ad-rotator-error-message {
+  color: #dc3232 !important;
+}
+
+/*----------  Faq Style  ----------*/
+.wb-ads-admin-col-12 {
+  float: left;
+  padding: 10px 0;
+  width: 100%;
+}
+.wb-ads-adming-setting {
+  float: left;
+  width: 90%;
+}
+button.wb-ads-accordion {
+  background-color: hsl(0, 0%, 87%);
+  border: medium none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: hsl(0, 0%, 27%);
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 5%;
+  outline: medium none;
+  padding: 15px 20px;
+  text-align: left;
+  transition: all 0.4s ease 0s;
+  width: 90%;
+}
+button.wb-ads-accordion.active,
+button.wb-ads-accordion:hover {
+  background-color: hsl(207, 90%, 54%);
+  color: white;
+}
+div.wb-ads-panel {
+  background-color: white;
+  margin: 0px 5%;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 18px;
+  transition: max-height 0.2s ease-out;
+}
+button.wb-ads-accordion::after {
+  color: hsl(0, 0%, 47%);
+  content: "+";
+  float: right;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+button.wb-ads-accordion::after:hover {
+  color: white;
+}
+button.wb-ads-accordion.active::after {
+  content: "−";
+  color: white;
+}
+.wb-ads-admin-row {
+  border-top: 1px solid #ddd;
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.wb-ads-tab-3-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.wb-ads-tab-content .form-table td {
+  padding: 0;
+}
+
+/*Ads CPT UI*/
+.wb_ads_rotator-panel .CodeMirror-wrap pre {
+  padding-left: 35px;
+}
+.wb_ads_rotator-wrapper.select-ads-image.image-ad {
+  align-items: center;
+  gap: 30px;
+}
+input#wb_ads_rotator_select_image {
+  padding: 3px 20px;
+  margin-right: 10px;
+}
+input#wb_ads_rotator_remove_image {
+  padding: 3px 20px;
+  margin-right: 10px;
+}
+.wb_ads_rotator-panel
+  .wb_ads_rotator-wrapper.select-ads-image.image-ad
+  .wb_ads_rotator-label {
+  width: 40%;
+}
+.wb_ads_rotator-wrapper.select-ads-image.image-ad
+  .wb_ads_rotator-input
+  input.wb_ads_rotator_image {
+  width: 95%;
+}
+.wb_ads_rotator-input label {
+  margin-right: 20px;
+}
+.wb-bp-ads-size span {
+  display: block;
+  margin-bottom: 5px;
+}
+.wb_ads_rotator-input.wb-ads-rotator-ads-size {
+  display: flex;
+}
+.wb_ads_rotator-input label span {
+  display: block;
+  margin-bottom: 5px;
+}
+.wb_ads_rotator-input .wb_ads_margin {
+  width: 100%;
+  display: flex;
+  clear: both;
+}
+p.wb_ads_margin_disc {
+  display: block;
+  margin-bottom: 0;
+  clear: both;
+  width: 100%;
+}
+.wb_ads_bg_color input[type="color"],
+.wb_ads_text_color input[type="color"] {
+  padding: 0;
+  border-radius: 0;
+  height: 40px;
+  width: 40px;
+  border: none !important;
+  cursor: pointer;
+}
+.shortcode-text-hide {
+  display: none;
+}
+.ads-shortcode-text {
+  margin-left: 40px;
+  padding: 5px 12px;
+  background-color: #000000df;
+  border-radius: 4px;
+  color: #fff;
+}
