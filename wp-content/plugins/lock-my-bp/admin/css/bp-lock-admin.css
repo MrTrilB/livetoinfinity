@@ -1,0 +1,180 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.nav-tab-wrapper ul li.General a.nav-tab:before {
+    content: "\f111";
+}
+.nav-tab-wrapper ul li.Pages a.nav-tab:before {
+    content: "\f133";
+}
+.nav-tab-wrapper ul li.Support a.nav-tab:before {
+    content: "\f125";
+}
+
+.wbcom-welcome-main-wrapper {
+    position: relative;
+    font-size: 15px;
+    background: #f6f6f6;
+    padding: 0 15px 15px;
+    margin: 25px 0;
+}
+.wbcom-welcome-head h2.wbcom-welcome-title,
+.bplock-tab-header h3 {
+    padding: 18px 25px;
+    font-size: 15px;
+    background: #2094F3;
+    color: #fff;
+    margin: 0 -15px 20px;
+}
+.wbcom-video-link-wrapper {
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+}
+.wbcom-video-link-wrapper iframe,
+.wbcom-video-link-wrapper .col-right,
+.wbcom-video-link-wrapper .fluid-width-video-wrapper {
+    width: 48%;
+    padding: 1%;
+}
+.wbcom-video-link-wrapper .fluid-width-video-wrapper {
+    padding-top: 28% !important;
+}
+.wbcom-welcome-support-info {
+    box-shadow: none;
+}
+.bplock-general-settings-container,
+.bplock-pages-settings-container,
+.bplock-admin-settings-block {
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.bplock-general-settings-container .form-table th,
+.bplock-pages-settings-container .form-table th  {
+    padding: 20px !important;
+}
+.bplock-submit p.submit {
+    float: left;
+    overflow: hidden;
+    margin-left:20px;
+    padding: 0;
+}
+
+
+
+.bplock-header {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+.bplock-header .bplock-plugin-heading {
+	float: left;
+	margin: 0px;
+}
+.notice-success, div.updated {
+	clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+
+.wbcom-video-link-wrapper iframe,
+.wbcom-video-link-wrapper .col-right,
+.wbcom-video-link-wrapper .fluid-width-video-wrapper {
+    width: 100%;
+    padding: 1%;
+}
+.bplock-general-settings-container .form-table th,
+.bplock-pages-settings-container .form-table th,
+.bplock-pages-settings-container.form-table td,
+.bplock-general-settings-container .form-table td  {
+    padding:15px !important;
+}
+
+
+}
+
+ /*SUPPORT*/
+.bplock-adming-setting {
+    background: #f9f9f9;
+    padding: 0 15px 15px;
+}
+.lock-support.bplock-admin-settings-block {
+    padding: 0;
+    background: transparent;
+}
+button.bplock-accordion {
+    background-color: hsl(0, 0%, 87%);
+    border: none;
+    color: #444;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 500;
+    outline: medium none;
+    padding: 12px 20px;
+    text-align: left;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+    padding-right: 50px;
+}
+button.bplock-accordion.active, button.bplock-accordion:hover {
+	background-color: hsl(207, 90%, 54%);
+	color:white;
+}
+div.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin:0px;
+}
+button.bplock-accordion::after {
+    color: hsl(0, 0%, 47%);
+    content: "+";
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    right: 15px;
+    position: absolute;
+    top: 3px;
+}
+button.bplock-accordion:hover::after {
+	color: white;
+}
+button.bplock-accordion.active::after {
+	content: "−";
+	color:white;
+}
+.bplock-admin-row {
+    clear: both;
+    overflow: hidden;
+    padding: 5px 0;
+}
+div.panel p{
+	font-size: 15px;
+}
+.bplock-prmotion-row {
+    background: #e4f2fe;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid;
+    color: #2094f3;
+    padding: 0;
+}
+.bplock-prmotion-row p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 12px;
+}
+/*SUPPORT*/

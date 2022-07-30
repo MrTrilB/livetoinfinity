@@ -1,0 +1,24 @@
+.mppftc-featured-media {
+    display: block;
+    width: 100%;
+}
+.mppftc-featured-media li {
+    margin-right: 2px;
+    float: left !important;
+}
+.mppftc-featured-gallery {
+    display: block;
+    width: 100%;
+}
+.mppftc-featured-gallery li {
+    margin-right: 2px;
+    float: left !important;
+}
+#item-meta .mppftc-featured-media,
+#item-meta .mppftc-featured-gallery {
+    margin-top: 10px;
+}
+#buddypress div#item-header ul.mppftc-featured-media-list,
+#buddypress div#item-header ul.mppftc-featured-gallery-list  {
+    margin-bottom: 0;/*overriding*/
+}

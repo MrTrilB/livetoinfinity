@@ -1,0 +1,150 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+body .bplock-login-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.wbcom-video-link-wrapper .fluid-width-video-wrapper
+
+.bplock-login-form-container .bplock-login-form-container {
+    margin: 0;
+    padding: 0;
+}
+
+.bplock-login-form-container input[id],
+.bplock-login-form-container button {
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    border:1px solid #bdc3c7 !important;
+    display: inline-block;
+    color: #34495e;
+    outline: 0;
+    height: 42px;
+    width: 100%;
+    padding: 10px;
+    border-radius:6px;
+}
+
+button#bplock-login-btn,
+button#bplock-register-btn {
+    color: #fff;
+    height: auto;
+    background: #157dfd;
+    font-size: 18px;
+    border: none !important;
+    width: 35%;
+}
+.bplock-register-form-container {
+    margin: 30px 15px;
+}
+.bplock-login-form-container input:focus,
+.bplock-login-form-container button:focus {
+    border-color: #555 !important;
+}
+
+#bplock-login-btn,
+#bplock-register-btn {
+    line-height: normal;
+}
+
+.bplock-register-form-container input {
+    margin-bottom: 0!important;
+}
+
+ul.bplock-login-shortcode-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.bplock-login-shortcode-tabs li {
+    color: #222;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #eee;
+    background: #fff;
+    border-bottom: none;
+}
+.bplock-login-form-container p {
+    margin-bottom: 20px;
+}
+
+.bplock-login-form-container p:last-child {
+    margin-bottom: 0;
+}
+
+ul.bplock-login-shortcode-tabs li.current {
+    background: #ffffff;
+    color: #157dfd;
+    box-shadow: 0px 2px 0 #157dfd;
+    border-radius: 0;
+}
+
+#bplock-login-tab i.fa.fa-sign-in {
+    font-family: FontAwesome !important;
+}
+
+.bplock-login-form-container .tab-content {
+    display: none;
+    background: #fff;
+    padding:15px;
+    border: 1px solid #eee;
+}
+
+.bplock-login-form-container .tab-content.current {
+    display: inherit;
+    box-shadow: 0 0 50px #f3f3f3;
+}
+
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+    margin: 10px 0px;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.isa_info i,
+.isa_success i,
+.isa_warning i,
+.isa_error i {
+    margin: 10px 22px;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+.bplock-message {
+    display: none;
+}
